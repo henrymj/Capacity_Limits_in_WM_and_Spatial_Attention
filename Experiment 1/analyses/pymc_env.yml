@@ -1,0 +1,11 @@
+name: pymc_env
+channels:
+  - conda-forge
+dependencies:
+  - pymc[version='>=5']
+  - ipykernel
+  - seaborn
+  - conda-forge::einops
+  - conda-forge::scikit-learn
+  - conda-forge::mne
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/pymc_env

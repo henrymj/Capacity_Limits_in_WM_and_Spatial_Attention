@@ -1,0 +1,12 @@
+.DS_store
+.ipynb_checkpoints
+*dev_notebooks
+IGNORE
+.vscode
+*data*/
+*__pycache__/
+*figures
+*model_comparison*
+*figures*
+ms_figs/
+*task_code_for_Booth_A
