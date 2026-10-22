@@ -1,4 +1,4 @@
-This repository provides the code to replicate Jones, Veillette, Suplica & Awh, 2026
+This repository provides the code to replicate Jones, Veillette, Suplica & Awh, 2026.
 
 Raw and preprocessed data can be downloaded from the following link: [osf.io/yk2mt](https://osf.io/yk2mt/)
 
@@ -8,9 +8,9 @@ Within each Experiment folder there are folders for 1) Experiment running, 2) Pr
 
 Jumping to the Analysis code, it has the following organization:
 
-* The code is organized into 9 key files numbered `0_` through `8_` that are meant to be run in order to replicate every analysis (and supplemental analysis) in the paper
+* The code is organized into 9 key files numbered `0_` through `8_` that are meant to be run in order to replicate every analysis (and supplemental analysis) in the paper.
 
-* A `pymc.yaml` file in the folder can be used to rebuild the enviornment for running the bayesian analyses (notebooks 5+). Any environment that can load in MNE, Scikit-Learn, and Scipy should be able to run the preceding notebooks
+* A `pymc.yaml` file in the folder can be used to rebuild the enviornment for running the bayesian analyses (notebooks 5+). Any environment that can load in MNE, Scikit-Learn, and Scipy should be able to run the preceding notebooks.
 
 * Within most notebooks, many additional or alternative visualizations and QA checks are run to make sure nothing crazy is going on. There are some markdown signposts throughout.
 
